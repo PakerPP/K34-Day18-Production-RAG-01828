@@ -1,0 +1,30 @@
+{
+  "n_queries": 5,
+  "n_chunks": 104,
+  "index_bm25_ms": 27441.21,
+  "per_query": {
+    "bm25_search": {
+      "avg_ms": 0.82,
+      "min_ms": 0.76,
+      "max_ms": 0.96
+    },
+    "dense_search": {
+      "avg_ms": 2265.07,
+      "min_ms": 100.0,
+      "max_ms": 10891.29
+    },
+    "rrf": {
+      "avg_ms": 0.05,
+      "min_ms": 0.04,
+      "max_ms": 0.06
+    },
+    "rerank": {
+      "avg_ms": 5900.74,
+      "min_ms": 4787.21,
+      "max_ms": 7775.1
+    },
+    "total_retrieval": {
+      "avg_ms": 8166.68
+    }
+  }
+}
